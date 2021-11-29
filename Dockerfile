@@ -1,7 +1,7 @@
 FROM python:3.8-alpine
 
-COPY ../../data_ingestion /bots
-COPY ../../requirements.txt /bots
+COPY data_ingestion /bots
+COPY requirements.txt /bots
 RUN pip3 install -r /bots/requirements.txt
 
 WORKDIR /bots
