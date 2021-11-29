@@ -1,4 +1,4 @@
-FROM python:3.8-alpine
+FROM python:3.8-buster
 
 COPY data_ingestion /bots
 COPY requirements.txt /bots

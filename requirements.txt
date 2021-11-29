@@ -1,5 +1,5 @@
-requests==2.26.0
-tweepy==4.4.0
+requests
+tweepy
 pandas
 s3fs
 pyarrow
